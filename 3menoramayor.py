@@ -1,6 +1,6 @@
-n1 = int(input("Introduce el primer número: "))
-n2 = int(input("Introduce el segundo número: "))
-n3 = int(input("Introduce el tercer número: "))
+n1 = int(input("introduce el primer numero: "))
+n2 = int(input("introduce el segundo numero: "))
+n3 = int(input("introduce el tercer numero: "))
 
 if n1 > n2 and n1 > n3 and n2 > n3:
     print("orden: ", n3, n2, n1)
@@ -15,4 +15,4 @@ elif n3 > n1 and n3 > n2 and n2 > n1:
 elif n3 > n1 and n3 > n2 and n1 > n2:
     print("orden: ", n2, n1, n3)
 else:
-    print("Los números son iguales")
+    print("los numeros son iguales")
