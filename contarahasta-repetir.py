@@ -2,10 +2,11 @@ n = int(input("introduce un numero: "))
 
 i = 1
 
-while i <= n:
-    if i < n:
-        print(i, end=",")
-    else:
+while True:
+    if i > n:
         break
+    elif i == n:
+        print(i)
+    else:
+        print(i, end=",")
     i += 1
-print(i)
