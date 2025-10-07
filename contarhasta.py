@@ -1,7 +1,6 @@
 n = int(input("introduce un numero: "))
 
-i = 1
 
-while i <= n:
-    print (i)
+for i in range(n):
+    print(i + 1)
     i += 1
