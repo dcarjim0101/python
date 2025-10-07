@@ -5,6 +5,6 @@ i = 1
 while True:
     if i <= n:
         print(i)
-        i += 1
     else:
         break
+    i += 1
