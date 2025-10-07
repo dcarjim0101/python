@@ -3,7 +3,8 @@ n = int(input("introduce un numero: "))
 i = 1
 
 while True:
-    print(i)
-    i += 1
-    if i > n:
+    if i <= n:
+        print(i)
+        i += 1
+    else:
         break
