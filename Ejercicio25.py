@@ -1,5 +1,5 @@
 n = int(input("introduce un numero: "))
 
-print(f"Tabla de multiplicar del {numero}:")
+print("tabla de multiplicar del ", n, ":")
 for i in range(1, 10):
-    print(f"{numero} x {i} = {numero * i}")
+    print(n, "x", i, "=", n * i)
