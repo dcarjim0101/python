@@ -1,4 +1,5 @@
 n = int(input("introduce un numero: "))
-for i in range(n,0,-1):
+factorial = 1
+for i in range(1, n):
         factorial = n * i
-        print(factorial)
+        print(f"El factorial de {n} es {factorial}")
